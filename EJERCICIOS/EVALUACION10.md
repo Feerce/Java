@@ -18,7 +18,7 @@ programación? (Valor 1 punto)
 contesta lo siguiente: (Valor 1 punto)
 
             a. ¿Cuál fue el último elemento en entrar? 5
-            b. ¿Cuál fue el primer elemento en salir? 5
+            b. ¿Cuál fue el primer elemento en salir? 8
 
 ![image](https://user-images.githubusercontent.com/91554777/181846519-d3a5f664-1e13-4f1d-be3d-30d232fb5f2e.png)
 
