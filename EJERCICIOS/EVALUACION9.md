@@ -28,7 +28,7 @@ permite la inserción de un nuevo elemento. (Valor 1 punto)
               a. Verdadero
               
 
-4. Se tiene la siguiente lista con 6 elementos, teniendo en cuenta que es una cola
+4. Se tiene la siguiente lista con 6 elementos, teniendo en cuenta que es una pila
 contesta lo siguiente: (Valor 1 punto)
 
                 a. ¿Cuál fue el último elemento en entrar? 5
