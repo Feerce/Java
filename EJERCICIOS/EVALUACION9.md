@@ -84,8 +84,8 @@ imprimas la camisa que se está sacando.
                                 System.out.println("El nombre del alumno es : " + camisas.pop());
 
 
-                }
+                                }
 
-            }
+                        }
 
-        }
+                   }
