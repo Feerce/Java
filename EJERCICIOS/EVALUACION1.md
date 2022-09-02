@@ -85,9 +85,8 @@ Mi_Nombre!” donde “Mi_Nombre” sea tú nombre. (Valor 2 punto)
                 System.out.println( "¡Hola + Mi_Nombre!
           }
         }
-
-Salida:
-¡Hola  ́nombre_del_programador ́!!
+       Salida:
+       ¡Hola  ́nombre_del_programador ́!!
 
 
 8. Dada la clase con método main() LasEscondidas, que pertenece a un programa
