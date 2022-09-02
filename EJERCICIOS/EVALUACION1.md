@@ -93,24 +93,24 @@ Salida:
 8. Dada la clase con método main() LasEscondidas, que pertenece a un programa
 que se llama LasEscondidas.java. (Valor 2 puntos)
 
-public class LasEscondidas {
+       public class LasEscondidas {
 
-  public static void main(String[] args) {
-  
-   System.out.println("Juguemos a las escondidas.");
-   
-   System.out.println("Tres...");
-   
-   System.out.println("Dos...");
-   
-   System.out.println("Uno...");
-   
-   System.out.println("¡Listos o no, aquí voy!");
-   
-    
-  }
-  
-}
+         public static void main(String[] args) {
+
+          System.out.println("Juguemos a las escondidas.");
+
+          System.out.println("Tres...");
+
+          System.out.println("Dos...");
+
+          System.out.println("Uno...");
+
+          System.out.println("¡Listos o no, aquí voy!");
+
+
+         }
+
+       }
 
           a. Debajo de la declaración de impresión System.out.println("Juguemos a las
           escondidas");, usando System.out.print(), genera las siguientes dos declaraciones:
