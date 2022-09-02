@@ -164,11 +164,11 @@ c. Escribe la salida del programa.
 10. Escribe el contenido de un programa en java que lleva por nombre
 Evaluacion.java con las siguientes características: (Varlor 2 puntos)
 
-public class Evaluacion{   
-    public static void main(String[] args) { //El método main ejecuta las tareas de la clase
-        System.out.println("¡Mi primer programa Java desde cero!");
-    }
-}
+              public class Evaluacion{   
+                  public static void main(String[] args) { //El método main ejecuta las tareas de la clase
+                      System.out.println("¡Mi primer programa Java desde cero!");
+                  }
+              }
 
 Salida:
 ¡Mi primer programa Java desde cero!
