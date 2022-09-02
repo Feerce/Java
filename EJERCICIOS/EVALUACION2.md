@@ -9,57 +9,47 @@ clara, según sea el caso.
 
 1. ¿Cuál de las siguientes líneas arrojaría un error de compilación? (Valor 1 punto)
 
-          a. int balance = -30;
+         
           b. double isRaining = false;
-          c. String gradeOnTest = "A";
-          d. char grade_on_test = 'F';
+         
 
 2. ¿Cuál de los siguientes valores es un char válido? (Valor 1 punto)
 
-          a. "a"
-          b. 'ab'
+          
           c. 'F'
-          d. 7
+          
 
 3. ¿A qué tipo de datos solo se le puede asignar uno de dos valores? (Valor 1 punto)
 
-          a. char
-          b. double
+          
           c. boolean
-          d. int
+          
 
 4. ¿Qué línea declara la variable bestProgrammingLanguage y la inicializa para que
 sea "Java"? (Valor 1 punto)
 
-          a. bestProgrammingLanguage = String "Java";
-          b. string bestProgrammingLanguage = "Java";
+          
           c. String bestProgrammingLanguage = "Java";
-          d. "Java" = String bestProgrammingLanguage;
+          
 
 
 5. ¿Qué opción es un nombre de variable válido y sigue las convenciones de
 nomenclatura de Java? (Valor 1 punto)
 
-          a. 2ndPhoneNumber
-          b. TimeUntilLaunch
-          c. second_phone_number
+          
           d. timeUntilLaunch
 
 6. ¿Qué línea de código declara una variable llamada numConejos para almacenar
 un número entero? (Valor 1 punto)
 
-          a. numConejos = int;
-          b. numConejos int;
-          c. number numConejos;
+         
           d. int numConejos;
 
 7. ¿Qué valor NO se puede asignar a una variable con el tipo de datos double? (Valor
 1 punto)
 
           a. "60"
-          b. 6.7
-          c. 5
-          d. -.2
+          
 
 8. Supón que tienes un programa llamado Creador.java y dentro de este hemos
 definido algunas variables relacionadas a James Gosling, el creador de Java como
@@ -72,6 +62,14 @@ se muestra a continuación: (Valor 2 puntos)
                        String nombre = "James Gosling";
 
                        int yearCreado = 1995;
+                       
+                       System.out.println(nombre);
+                    
+                       System.out.println(yearCreado);
+                    
+                       System.out.println(nombre + yearCreado);
+                       
+                       
 
                       }
 
@@ -97,7 +95,9 @@ tenemos el siguiente código definido: (Valor 2 puntos)
                   //Este es el método main que se ejecuta cuando compilas
                   public static void main(String[] args) {
                     //Aquí es donde vas a definir tu variable
+                    int numComentarios = 6;
                     //Aquí es donde vas a imprimir tu variable
+                    System.out.println(numComentarios);
                     }
                     //Este es el final de la class
                   }
@@ -121,6 +121,8 @@ archivo es CuotaMercado.java: (Valor 2 puntos)
 
               public class CuotaMercado {
                 public static void main(String[] args) {
+                 double androidCuota = 70.97;
+                 System.out.println(androidCuota);
                 }
               }
 
@@ -142,6 +144,8 @@ archivo es Booleans.java: (Valor 2 puntos)
 
               public class Booleans {
                 public static void main(String[] args) {
+                 boolean intsPuedeAlmacenarDecimales = false;
+                 System.out.println(intsPuedeAlmacenarDecimales);
                 }
               }
 
@@ -154,13 +158,15 @@ b. Imprime la variable intsPuedeAlmacenarDecimales.
 c. Escribe la salida.
 
                 Salida:
-                70.97
+                70.97, creo que debería de ser false
 
 12. Considera el código del siguiente programa escrito en Java cuyo nombre del
 archivo es Char.java: (Valor 2 puntos)
 
-              public class Char {
+              public class Char {//Fernanda
                 public static void main(String[] args) {
+                char primerLetra = 'F';
+                System.out.println(primerLetra);
                 }
               }
     
@@ -175,13 +181,15 @@ d. Escribe la salida.
 
 
                 Salida:
-                M
+                F
 
 13. Considera el código del siguiente programa escrito en Java cuyo nombre del
 archivo es Poema.java: (Valor 2 puntos)
 
               public class Poema {
                 public static void main(String[] args) {
+                 String verso = "Aquí no suceden cosas de mayor trascendencia que las rosas."
+                 System.out.println(verso)
                 }
               }
     
@@ -201,7 +209,15 @@ archivo es MiPerfil.java: (Valor 3 puntos)
 
               public class MyProfile {
                 public static void main(String[] args) {
-
+                 String nombre = "Celaya Hernandez Maria Fernanda";
+                 int edad = 25;
+                 double salarioDeseado = 20,500.00;
+                 char genero = 'f'
+                 boolean buscandoTrabajo = true;
+                 System.out.println(nombre);
+                 System.out.println(edad);
+                 System.out.println(salarioDeseado);
+                 System.out.println(genero);
                 }
               }
     
