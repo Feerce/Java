@@ -11,19 +11,27 @@ breve y clara.
 
 1. ¿Cuál es la sintaxis de la estructura switch - case en Java? (Valor 2)
 
+                             switch (expresion){
+                             case valor1:
+                             //codigo
+                             break;
+                             case valor2:
+                             //codigo
+                             dreak;
+                             ...
+                             default:
+                             //declaraciones predeterminadas
+
+                             }
+     
 2. ¿Cual de las siguientes oraciones es correcta acerca del default dentro de la
 estructura switch - case? (Valor 1)
 
-      a. Se ejecuta si el resultado de la expresión no coincide con ningún caso.
-      b. El default es opcional.
-      c. Todas las anteriores.
+            c. Todas las anteriores.
       
 3. ¿Cuál es una afirmación incorrecta de la estructura switch – case? (Valor 1)
 
-        a. La instrucción switch no nos permite reemplazar varias construcciones
-        if-else.
-        b. Los tipos de datos que puede evaluar un switch - case son short, int, byte o
-        char.
+        
         c. El valor para un case debe ser del mismo tipo de datos que la variable en el
         switch.
         
@@ -31,17 +39,15 @@ estructura switch - case? (Valor 1)
 
 ![image](https://user-images.githubusercontent.com/91554777/176980099-2bf4ede3-0c22-49af-9bc5-0d2f09f81976.png)
 
-      a) Líneas 1, 3, 5, 10
-      b) Línea 1, 5, 10, 15
+      
       c) Línea 1, 9 10, 14
       
  5. En la estructura switch - case, ¿cuál instrucción se usa para terminar la secuencia
 de un caso? (Valor 1)
 
-      a. default
-      b. case
+      
       c. break
-      d. switch
+     
       
 6. Crea el código en java bajo las siguientes instrucciones: (Valor 3)
 
@@ -56,3 +62,50 @@ de un caso? (Valor 1)
         f. En cada caso, coloca e imprime cada día de la semana (comenzando el Lunes).
         g. Si se ingresa un número de día no válido, imprime el mensaje Número no
         válido.
+        
+                                     import java.util.Scanner;
+
+                                     public class Evaluacion5 {
+
+                                     public static void main(String[] args) {
+                                     Scanner semana = new Scanner(System.in);
+                                     int dia;
+
+                                      System.out.println("Introduce un numero del 1 al 7 para conocer el dia de la semana");
+                                      dia= semana.nextInt();
+
+                                      switch (dia)
+                                      {
+                                        case 1:
+                                            System.out.println("Lunes");
+                                            break;
+
+                                        case 2:
+                                            System.out.println("Martes");
+                                            break;
+
+                                         case 3:
+                                            System.out.println("Miercoles");
+                                            break;
+
+                                          case 4:
+                                            System.out.println("Jueves");
+                                            break;
+
+                                          case 5:
+                                            System.out.println("Viernes");
+                                            break;
+
+                                          case 6:
+                                            System.out.println("Sabado");
+                                            break;
+
+                                          case 7:
+                                            System.out.println("Domingo");
+                                            break;
+
+                                          default:
+                                              System.out.println("Numero no valido");
+                                                }
+                                             }
+                                         }
