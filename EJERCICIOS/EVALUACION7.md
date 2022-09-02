@@ -20,37 +20,34 @@ clara, según sea el caso.
 3. Sirve para derivar de una clase ya existente a otra clase: (Valor 1 punto)
 
         a. Herencia
-        b. Polimorfismo
-        c. Métodos
+        
         
 4. De las siguientes opciones, selecciona las ventajas de la Programación Orientada a Objetos: (Valor 1 punto)
 
-        a. Exactitud
+        
         b. Simplicidad
         c. Ahorra memoria
         d. Reutilización de código
         
 5. Las clases normalmente cuentan con: (Valor 1 punto)
 
-        a. Nombre de clase, herencia y atributos.
-        b. Nombre de clase, métodos y herencia.
+        
         c. Nombre de clase, atributos y métodos.
         
 6. En programación, se utiliza para modelar un conjunto de objetos: (Valor 1 punto)
 
-        a. Plantilla
+        
         b. Clase
-        c. Métodos
+        
         
 7. ¿Qué son los métodos?
 
-        a. Las propiedades presentes en un objeto.
         b. Las operaciones realizables de un objeto.
-        c. Los modelos para la creación de objetos.
+       
         
 8. Identifica las partes de una clase:
 
-![image](https://user-images.githubusercontent.com/91554777/180586095-9353e40d-fa61-4852-aa52-8e59dc773efd.png)
+![image](https://user-images.githubusercontent.com/104279806/188241905-53c0dda2-faf0-4b56-9ed3-02aed05c9ee1.png)
 
 9. Deberás crear un programa que forme parte de un módulo para el sistema de una
 estética de perros. El programa deberá de contener lo siguiente: (Valor 2 puntos)
