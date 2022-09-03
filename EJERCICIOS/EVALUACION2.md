@@ -245,8 +245,8 @@ g. Escribe la salida.
 
 
               Salida:
-              Mi Nombre
-              22
-              500000.01
-              n
+              Celaya Hernandez Maria Fernanda
+              25
+              20,500.00
+              f
               true
