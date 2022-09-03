@@ -10,7 +10,8 @@ clara, según sea el caso.
 1. ¿Qué es un arreglo? (Valor 1 punto)
 
         
-        c. Conjunto de variables del mismo tipo cuyo acceso se realiza por índice
+        b. Son colecciones de variables de un mismo tipo que se referencian utilizando
+        un nombre común.
         
 2. De la siguiente ilustración de un arreglo, coloca los elementos según corresponda.
 (Valor 1 punto)
@@ -28,7 +29,7 @@ clara, según sea el caso.
  4. ¿Qué tipo de ciclo se adapta fácilmente para el manejo de un arreglo? (Valor 1
 punto)
 
-      a. Do - While
+      b. For
       
       
  5. ¿Cómo se le conoce a los arreglos unidimensionales? (Valor 1 punto)
@@ -70,16 +71,14 @@ puntos)
       i. Ejemplo. El arreglo en la posición 2 tiene el número 4.
       
       
-                            public class Evaluacion6 {
+                   public class Evaluacion6 {
 
-                                public static void main(String[] args) {
-                                     int numeros[]={12,10,4,24,5,9};
-                                     for (int i=0; i<numeros.length; i++)
-                                     {
-                                        System.out.println("El arreglo en la posicion " + i +" tiene el numero " +numeros[i]);  
-                                     }
+                    public static void main(String[] args) {
+                     int numeros[]={12,10,4,24,5,9};
+                     for (int i=0; i<numeros.length; i++)
+                     {
+                      System.out.println("El arreglo en la posicion " + i +" tiene el numero " +numeros[i]);  
+                     }
 
-
-
-                                }
-                              }
+                      }
+                     }
