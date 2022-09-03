@@ -25,7 +25,7 @@ contesta lo siguiente: (Valor 1 punto)
 3. ¿Qué método no se utiliza para remover un elemento de la cola? (Valor 1 punto)
 
             
-            a. peek()
+             b. remove()
 
 4. ¿Para qué sirven los métodos peek() y element() en las colas? (Valor 1 punto)
 
